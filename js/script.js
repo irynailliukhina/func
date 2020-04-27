@@ -110,8 +110,8 @@
 //         return console.error("wrong");
 //     } else if (min === 0) {
 //         m = `00`;
-//     } else if (hour < 10) {
-//         m = `0${hour}`;
+//     } else if (min < 10) {
+//         m = `0${min}`;
 //     } else {
 //         m = min;
 //     };
@@ -121,7 +121,7 @@
 //     } else if (sec === 0) {
 //         s = `00`;
 //     } else if (sec < 10) {
-//         s = `0${hour}`;
+//         s = `0${sec}`;
 //     } else {
 //         s = sec;
 //     };
